@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.logo a {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.instagram-logo {
+    height: 20px;
+    width: auto;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    display: flex;
+    padding: 20px;
+}
+
+.menu-categories {
+    flex: 1;
+}
+
+.menu-categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-categories li {
+    margin-bottom: 10px;
+}
+
+.menu-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    text-align: left;
+    cursor: pointer;
+}
+
+.menu-button:focus {
+    outline: none;
+    background-color: #e0e0e0;
+}
+
+.menu-items {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.order {
+    text-align: center;
+    padding: 20px;
+}
