@@ -10,11 +10,16 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f8f8;
+    background-color: #2f2f2f;
 }
 
 .logo img {
-    height: 50px; /* Adjust the height as needed */
+    height: 75px; 
+    width: auto;
+}
+
+.instagram-logo {
+    height: 20px; 
     width: auto;
 }
 
@@ -35,7 +40,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #ebebeb;
     padding: 10px;
 }
 
@@ -75,30 +80,55 @@ nav a:hover {
 
 .hero h1 {
     margin: 10px 0;
-    font-size: 36px;
-    color: #fff;
+    font-size: 48px;
+    color: #ffffcc;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.hero h2 {
+.hero p {
     margin: 10px 0;
     font-size: 24px;
-    color: #ffff99; /* Light yellow color */
+    color: #ffffcc; /* Light yellow color */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.about-us, .delivery-info, .gallery, .magazine-link {
+.about-us {
     padding: 20px;
     text-align: center;
 }
 
-.about-images, .gallery-images {
+.about-images {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.about-images img, .gallery-images img {
+.about-image {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    width: 200px; 
+}
+
+.color-background {
+    background-color: rgb(74, 74, 74);
+    color: white;
+    padding: 20px;
+    border-radius: 5px; 
+}
+
+.delivery-info, .gallery, .magazine-link {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
     margin: 10px;
     max-width: 100%;
     height: auto;
@@ -112,4 +142,8 @@ nav a:hover {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.about-us p, .magazine-link p {
+    padding: 0 300px;
 }
