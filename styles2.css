@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: #202020;
+}
+
+.logo img {
+    height: 75px;
+    width: auto;
+}
+
+.instagram-logo {
+    height: 20px;
+    width: auto;
+}
+
+.logo a {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ebebeb;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    padding: 20px;
+    gap: 40px;
+}
+
+.location-map, .contact-form {
+    flex: 1;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.location-map iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin-top: 5px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#formcol1 li {
+    list-style: none;
+}
+
+label {
+    margin-right: .3em;
+    width: 8em;
+    display: inline-block;
+}
+
+#formcol1 label {
+    text-align: right;
+}
+
+#formcol1 li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}

@@ -145,9 +145,9 @@ nav a:hover {
 }
 
 .about-us p, .magazine-link p {
-    max-width: 700px; /* Adjust the max-width as needed */
+    max-width: 700px;
     margin: 0 auto;
-    padding: 0 50px; /* Add padding to both sides */
-    text-align: justify; /* Optional: to justify text */
+    padding: 0 50px;
+    text-align: justify;
     text-indent: 40px;
 }

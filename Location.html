@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Flower Pepper Restaurant</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="Home.html"><img src="Logo.png" alt="Flower Pepper Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Location.html">Location & Contact</a></li>
+                <li><a href="https://www.food.ee/restaurants/boulder/flower-pepper-restaurant/">Order Catering</a></li>
+                <li><a href="https://www.instagram.com/flower.pepper.restaurant/?igsh=MWs4YXJzeW1qdzcybQ%3D%3D"><img
+                            class="instagram-logo" src="instagram-white-icon.png" alt="Instagram"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="location-map">
+            <h1>Find Us</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1127.065045935097!2d-105.28215244402553!3d40.02466592737026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876bee9c0d539b8b%3A0xc58ab6e8e29f9108!2sFlower%20Pepper%20Restaurant%20-%20Authentic%20Chinese%20Home%20Cooking!5e0!3m2!1sen!2sus!4v1722885584533!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="contact-details">
+                    <p>2655 Broadway, Boulder, CO 80304</p>
+                    <p>Phone: <a href="tel:7203811594">(720) 381-1594</a></p>
+                </div>
+        </section>
+<div id="formcol1">
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <li>
+                        <p>* required fields</p>
+                    </li>
+                    <li>
+                        <label for="name">Name*:</label>
+                        <input type="text" id="name" name="name" class="reqfield">
+                    </li>
+                    <li>
+                        <label for="email">Email*:</label>
+                        <input type="email" id="email" name="email" class="reqfield">
+                    </li>
+                    <li>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </li>
+                    <li>
+                        <label for="message">Message*:</label>
+                        <textarea id="message" name="message" rows="4" class="reqfield"></textarea>
+                    </li>
+                    <button type="submit">Send</button>
+                </fieldset>
+            </form>
+        </section>
+        </div>
+    </main>
+</body>
+
+</html>
